@@ -1,0 +1,36 @@
+{
+  "name": "n4-cli",
+  "private": true,
+  "version": "1.0.23",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "n4": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "bun dist/index.js",
+    "dev": "bun --watch src/index.ts ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/core": "^1.0.1",
+    "@inquirer/prompts": "^1.2.3",
+    "chalk": "^5.3.0",
+    "commander": "^10.0.1",
+    "figlet": "^1.6.0",
+    "inquirer": "^9.2.0",
+    "ora": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.3",
+    "@types/mute-stream": "^0.0.1",
+    "@types/node": "^18.19.3",
+    "typescript": "^5.0.4"
+  }
+}
