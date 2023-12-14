@@ -94,7 +94,7 @@ I have clocked deploys at 36 seconds 🏎️
 ## TODO:
 
 - [x] Add section to readme about steps to do before running npx n4-cli
-- [ ] Switch to monorepo with frontend code
+- [x] Switch to monorepo with frontend code
 - [x] Check URL of deployed pages project
 - [x] set custom url for pages project
 - [x] check if deployment was successful
