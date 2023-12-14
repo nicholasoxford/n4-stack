@@ -18,7 +18,7 @@ export default function Login({ isSignUp }: { isSignUp?: boolean }) {
       <Card className="border-2 border-dashed w-80 h-96 border-gray-500 p-4 rounded-lg shadow-md bg-white dark:bg-gray-800 max-w-lg mx-auto">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">
-            {isSignUp ? "Sign Up For" : "Login To "} N4 Stack
+            {isSignUp ? "Sign Up For" : "Login To "} package-name-replace
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4 text-left">

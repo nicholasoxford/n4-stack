@@ -26,18 +26,6 @@ export function MainNav() {
         >
           About
         </a>
-
-        <a
-          href="/examples"
-          className={cn(
-            "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/examples")
-              ? "text-foreground"
-              : "text-foreground/60"
-          )}
-        >
-          API
-        </a>
       </nav>
     </div>
   );

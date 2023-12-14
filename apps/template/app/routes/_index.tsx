@@ -74,7 +74,7 @@ export default function Index() {
       className="flex text-center justify-center flex-col  min-h-screen w-full"
     >
       <div>
-        <h1 className="mb-2">Welcome to N4 Stack</h1>
+        <h1 className="mb-2">Welcome to package-name-replace</h1>
       </div>
 
       {session ? (
@@ -85,7 +85,6 @@ export default function Index() {
       ) : (
         <Login />
       )}
-      <h1 className="mt-2">Never lose a meme again!</h1>
     </div>
   );
 }
